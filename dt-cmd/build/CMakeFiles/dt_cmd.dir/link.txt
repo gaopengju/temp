@@ -1,0 +1,1 @@
+/bin/cc   -O0 -g -ggdb -DMGD_DEBUG    CMakeFiles/dt_cmd.dir/parse_conf.c.o CMakeFiles/dt_cmd.dir/cmd.c.o CMakeFiles/dt_cmd.dir/server.c.o CMakeFiles/dt_cmd.dir/main.c.o  -o bin/dt_cmd  -L/root/work/code/dt-cmd/deps/lib -rdynamic -lpthread -ldl -lm -lcjson -lev -Wl,-rpath,/root/work/code/dt-cmd/deps/lib 

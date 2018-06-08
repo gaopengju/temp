@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/work/code/dt-cmd/cmd.h
+
+/root/work/code/dt-cmd/glb_var.h
+errno.h
+-
+stdbool.h
+-
+stdint.h
+-
+stdio.h
+-
+stdlib.h
+-
+stddef.h
+-
+unistd.h
+-
+math.h
+-
+error.h
+-
+
+/root/work/code/dt-cmd/main.c
+glb_var.h
+/root/work/code/dt-cmd/glb_var.h
+server.h
+/root/work/code/dt-cmd/server.h
+cmd.h
+/root/work/code/dt-cmd/cmd.h
+parse_conf.h
+/root/work/code/dt-cmd/parse_conf.h
+
+/root/work/code/dt-cmd/parse_conf.h
+
+/root/work/code/dt-cmd/server.h
+
